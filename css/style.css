@@ -1,0 +1,114 @@
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../assets/header-bg.jpg) left center no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.sec-one .vertical-decoration {
+  right: 0;
+}
+
+.vertical-decoration {
+  top: 12%;
+  width: 24px;
+}
+
+.sec-one .icon-one {
+  left: 30%;
+  top: 10%;
+  rotate: 45deg;
+}
+
+.sec-one .icon-two,
+.icon-four {
+  left: 60%;
+}
+
+.sec-one .icon-three {
+  left: 90%;
+  rotate: 45deg;
+  top: 10%;
+}
+
+.sec-one .icon-four {
+  left: 60%;
+  top: 60%;
+}
+
+.hr-one {
+  rotate: 90deg;
+  position: absolute;
+  inset: 0;
+  left: 38%;
+  bottom: 15%;
+  width: 60px;
+}
+
+.hr-two {
+  rotate: 45deg;
+  position: absolute;
+  inset: 0;
+  left: 35%;
+  top: 40%;
+  width: 60px;
+}
+
+.hr-three {
+  rotate: -45deg;
+  position: absolute;
+  inset: 0;
+  left: 95%;
+  top: 40%;
+  width: 60px;
+}
+
+.card-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-three {
+  min-height: 450px;
+}
+
+.close {
+  top: 10px;
+  right: 30px;
+}
+.close i {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+code {
+  font-family: monospace;
+}
+
+#loader {
+  transition: all 0.7s ease-in-out;
+}
+
+@media (max-width: 1399px) {
+  .hr-one {
+    left: 30%;
+  }
+  .hr-three {
+    left: 115%;
+    rotate: -60deg;
+    top: 25%;
+  }
+  .hr-two {
+    rotate: 60deg;
+    position: absolute;
+    inset: 0;
+    left: 15%;
+    top: 25%;
+    width: 60px;
+  }
+}
